@@ -1,13 +1,12 @@
 package com.reqres;
 
-import com.jayway.restassured.http.ContentType;
-import com.jayway.restassured.internal.assertion.Assertion;
-import com.jayway.restassured.response.Response;
 import com.reqres.pojo.FetchDetails;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.given;
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.Test;
 
-import static com.jayway.restassured.RestAssured.given;
 import static com.reqres.Initialization.getJson;
 
 public class CurdTests {
