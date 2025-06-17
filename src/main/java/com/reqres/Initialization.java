@@ -1,6 +1,5 @@
 package com.reqres;
-import com.jayway.restassured.RestAssured;
-import com.jayway.restassured.response.Response;
+import io.restassured.RestAssured;
 import org.testng.annotations.BeforeTest;
 
 import java.io.BufferedReader;
